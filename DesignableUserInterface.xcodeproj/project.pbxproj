@@ -14,6 +14,8 @@
 		35A2048820C047B7000434AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A2048620C047B7000434AB /* LaunchScreen.storyboard */; };
 		35A2049320C047B7000434AB /* DesignableUserInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2049220C047B7000434AB /* DesignableUserInterfaceTests.swift */; };
 		35A2049E20C047B7000434AB /* DesignableUserInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2049D20C047B7000434AB /* DesignableUserInterfaceUITests.swift */; };
+		35A204AC20C04851000434AB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A204AB20C04851000434AB /* CustomView.swift */; };
+		35A204AE20C056D0000434AB /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A204AD20C056D0000434AB /* UIView+Designable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		35A2049920C047B7000434AB /* DesignableUserInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableUserInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A2049D20C047B7000434AB /* DesignableUserInterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUserInterfaceUITests.swift; sourceTree = "<group>"; };
 		35A2049F20C047B7000434AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A204AB20C04851000434AB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		35A204AD20C056D0000434AB /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				35A2048420C047B7000434AB /* Assets.xcassets */,
 				35A2048620C047B7000434AB /* LaunchScreen.storyboard */,
 				35A2048920C047B7000434AB /* Info.plist */,
+				35A204AB20C04851000434AB /* CustomView.swift */,
+				35A204AD20C056D0000434AB /* UIView+Designable.swift */,
 			);
 			path = DesignableUserInterface;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A204AE20C056D0000434AB /* UIView+Designable.swift in Sources */,
+				35A204AC20C04851000434AB /* CustomView.swift in Sources */,
 				35A2048020C047B3000434AB /* ViewController.swift in Sources */,
 				35A2047E20C047B3000434AB /* AppDelegate.swift in Sources */,
 			);
