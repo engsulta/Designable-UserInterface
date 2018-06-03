@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 @IBDesignable class DesignableImageView:UIImageView {}
 @IBDesignable class DesignableButton:UIButton{}
 @IBDesignable class DesignableTextField: UITextField {
@@ -23,7 +24,11 @@ import UIKit
     
 }
 
-extension UIView{
+/**
+ this extension for UIView to provid 3 inspectable border width and color and corner radius and to make circular
+ 
+ */
+public extension UIView{
     
     @IBInspectable
     var borderwidth:CGFloat{

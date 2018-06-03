@@ -9,14 +9,16 @@
 import UIKit
 @IBDesignable
 class CustomView: UIView {
-    
+    /** this to override draw function for view of type UIview to draw rect circular ends
+     */
     fileprivate func drawRectWithSoftCorners() {
         layer.masksToBounds = true
         layer.borderWidth = 1.0
         layer.borderColor = UIColor.blue.cgColor
         layer.cornerRadius = layer.frame.size.width / 8
     }
-    
+    /** this to override draw function for view of type UIview to draw circle
+     */
     fileprivate func drawCircle() {
         layer.masksToBounds = true
         layer.borderWidth = 1.0
@@ -36,7 +38,8 @@ class CustomView: UIView {
     let endColor = UIColor(red: 0.0, green: 100/255.0, blue: 255/255.0, alpha: 1.0).cgColor
     
     let startColor = UIColor(red: 100/255.0, green: 204/255.0, blue: 255/255.0, alpha: 1.0).cgColor
-    
+    /** override draw function for view of type UIview to draw gradient  background
+     */
     fileprivate func makeGradientLayer() {
         layer.masksToBounds = true
         layer.borderWidth = 2.0
